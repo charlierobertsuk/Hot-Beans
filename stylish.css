@@ -8,10 +8,10 @@ body {
 .animated-background-container {
     background: linear-gradient(300deg, #00f0f5, #bf51ff, #d52c89, #353f4c, #171821);
     background-size: 1000% 1000%;
-    animation: FlowingBackground 59s ease infinite;
-    -webkit-animation: FlowingBackground 59s ease infinite;
-    -moz-animation: FlowingBackground 59s ease infinite;
-    -o-animation: FlowingBackground 59s ease infinite;
+    animation: FlowingBackground 120s ease infinite;
+    -webkit-animation: FlowingBackground 120s ease infinite;
+    -moz-animation: FlowingBackground 120s ease infinite;
+    -o-animation: FlowingBackground 120s ease infinite;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@ body {
     height: 100%;
     z-index: -1; /* Push it to the background */
 }
-
+/* Bacicaly the angle of which the colours move */
 @keyframes FlowingBackground {
     0% { background-position: 10% 0%; }
     50% { background-position: 91% 100%; }
@@ -30,7 +30,7 @@ body {
     width: 60%;
     height: 100vh;
     margin: 0 auto; /* Centers the box horizontally */
-    background-color: rgba(240, 240, 240, 0.8); /* rgba is opacity but rgb */
+    background-color: rgba(240, 240, 240, 1.0); /* rgba is opacity but rgb */
     border: 1px solid #cccccc;
     box-sizing: border-box;
     padding: 20px;
