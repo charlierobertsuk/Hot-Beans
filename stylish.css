@@ -27,11 +27,12 @@ body {
 }
 
 .content-box {
-    width: 60%;
+    width: 80%;
     height: 100vh;
     margin: 0 auto; /* Centers the box horizontally */
-    background-color: rgba(240, 240, 240, 1.0); /* rgba is opacity but rgb */
-    border: 1px solid #cccccc;
+    background-color: #353f4c;
+    border: 5px solid #000000;
     box-sizing: border-box;
     padding: 20px;
+    color: aliceblue;
 }
