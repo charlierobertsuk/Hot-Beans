@@ -45,4 +45,9 @@ body {
     padding: 20px;
     color: aliceblue;
     border-radius: 10px;
+    overflow: auto;
 }
+
+.content {
+    height: 800px;
+  }
