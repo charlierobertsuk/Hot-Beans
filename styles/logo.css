@@ -1,9 +1,9 @@
 .logo {
     margin-top: 200px;
-    margin-bottom: 400px;
-    margin-left: 300px;
+    margin-bottom: 500px;
     width: 60px;
     height: 60px;
+    margin-left: 35vh;
     position: relative;
     transform-origin: center bottom;
   }
@@ -93,7 +93,7 @@
   .text {
     position: absolute;
     top: 120%;
-    left: 800%;
+    left: 850%;
     transform: translate(-50%, -50%);
     z-index: 1; 
   }
@@ -104,14 +104,14 @@
     text-align: left;
   }
   
-  .hot-beans span {
-    position: relative;
-  }
-  
   .hot-beans .hot {
     color: #ff4500;
   }
   
   .hot-beans .beans {
     color: #ffd700;
+  }
+
+  @media only screen and (min-width: 700px) {
+
   }
