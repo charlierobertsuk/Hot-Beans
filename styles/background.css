@@ -1,5 +1,5 @@
 .animated-background-container {
-    background: linear-gradient(300deg, #00f0f5, #bf51ff, #d52c89, #353f4c, #171821);
+    background: linear-gradient(300deg, #00f0f5, #bf51ff, #d52c89, #00f0f5);
     background-size: 1000% 1000%;
     animation: FlowingBackground 100s ease infinite;
     -webkit-animation: FlowingBackground 100s ease infinite;
