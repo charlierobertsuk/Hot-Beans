@@ -4,44 +4,44 @@
     height: 60px;
     position: relative;
     transform-origin: center bottom;
-}
-
-.fire{
+  }
+  
+  .fire {
     bottom: 0;
     position: absolute;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
-    transform: rotate(-45deg) scale(1.25,1.25);
+    transform: rotate(-45deg) scale(1.25, 1.25);
     bottom: -60px;
     left: 50%;
-}
-
-.yellow {
+  }
+  
+  .yellow {
     left: 15px;
     width: 30px;
     height: 30px;
     background: #ffd700;
     box-shadow: 0px 0px 8px 4px #ffd700;
-}
-
-.orange {
+  }
+  
+  .orange {
     left: 10px;
     width: 40px;
     height: 40px;
     background: #ffa500;
     box-shadow: 0px 0px 8px 4px #ffa500;
-}
-
-.red {
+  }
+  
+  .red {
     left: 5px;
     width: 50px;
     height: 50px;
     background: #ff4500;
     box-shadow: 0px 0px 8px 4px #ff4500;
-}
-
-.bean {
+  }
+  
+  .bean {
     width: 80px;
     height: 120px;
     background: #8b4513;
@@ -50,17 +50,17 @@
     bottom: -70px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.sunglasses {
+  }
+  
+  .sunglasses {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70px;
-}
-
-.arch {
+  }
+  
+  .arch {
     width: 65px;
     height: 5px;
     background: #000;
@@ -69,21 +69,47 @@
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.lens {
+  }
+  
+  .lens {
     width: 20px;
     height: 25px;
     background: #000;
     border-radius: 50%;
     position: absolute;
     top: 0px;
-}
-
-.lens.left {
+  }
+  
+  .lens.left {
     left: 10%;
-}
-
-.lens.right {
+  }
+  
+  .lens.right {
     right: 10%;
-}
+  }
+ 
+  .text {
+    position: absolute;
+    top: 120%;
+    left: 230%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+  }
+  
+  .hot-beans {
+    font-family: "Source Code Pro", monospace;
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  .hot-beans span {
+    position: relative;
+  }
+  
+  .hot-beans .hot {
+    color: #ff4500;
+  }
+  
+  .hot-beans .beans {
+    color: #ffd700;
+  }
