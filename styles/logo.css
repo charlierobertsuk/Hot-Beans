@@ -1,5 +1,7 @@
 .logo {
-    margin: 80px auto;
+    margin-top: 200px;
+    margin-bottom: 400px;
+    margin-left: 300px;
     width: 60px;
     height: 60px;
     position: relative;
@@ -12,8 +14,8 @@
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
-    transform: rotate(-45deg) scale(1.25, 1.25);
-    bottom: -60px;
+    transform: rotate(-45deg) scale(5, 5);
+    bottom: -120px;
     left: 50%;
   }
   
@@ -42,12 +44,12 @@
   }
   
   .bean {
-    width: 80px;
-    height: 120px;
+    width: 290px;
+    height: 400px;
     background: #8b4513;
     border-radius: 50%;
     position: absolute;
-    bottom: -70px;
+    bottom: -230px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -61,44 +63,44 @@
   }
   
   .arch {
-    width: 65px;
+    width: 180px;
     height: 5px;
     background: #000;
     border-radius: 50%;
     position: absolute;
-    top: 0px;
+    top: -20px;
     left: 50%;
     transform: translateX(-50%);
   }
   
   .lens {
-    width: 20px;
-    height: 25px;
+    width: 50px;
+    height: 40px;
     background: #000;
     border-radius: 50%;
     position: absolute;
-    top: 0px;
+    top: -20px;
   }
   
   .lens.left {
-    left: 10%;
+    left: 75%;
   }
   
   .lens.right {
-    right: 10%;
+    right: 75%;
   }
  
   .text {
     position: absolute;
     top: 120%;
-    left: 230%;
+    left: 800%;
     transform: translate(-50%, -50%);
     z-index: 1; 
   }
   
   .hot-beans {
     font-family: "Source Code Pro", monospace;
-    font-size: 40px;
+    font-size: 200px;
     text-align: left;
   }
   
