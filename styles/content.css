@@ -50,6 +50,7 @@ body {
 
 .content {
     height: 800px;
+        text-decoration: none;
   }
 
 ::-webkit-scrollbar{
