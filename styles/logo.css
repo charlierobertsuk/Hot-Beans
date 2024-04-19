@@ -1,117 +1,125 @@
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
-    margin-top: 200px;
-    margin-bottom: 500px;
-    width: 60px;
-    height: 60px;
-    margin-left: 35vh;
-    position: relative;
-    transform-origin: center bottom;
-  }
+  margin-top: 50px;
+  width: 60px;
+  height: 60px;
+  transform-origin: center bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fire {
+  bottom: -30px; 
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(-45deg) scale(5, 5);
+  left: calc(50% - 25px); 
+  z-index: 2;
+}
+
+.yellow {
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  background: #ffd700;
+  box-shadow: 0px 0px 8px 4px #ffd700;
+}
+
+.orange {
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: #ffa500;
+  box-shadow: 0px 0px 8px 4px #ffa500;
+}
+
+.red {
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  background: #ff4500;
+  box-shadow: 0px 0px 8px 4px #ff4500;
+}
+
+.bean {
+  width: 290px;
+  height: 400px;
+  background: #8b4513;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.sunglasses {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+}
+
+.arch {
+  width: 180px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lens {
+  width: 50px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+}
+
+.lens.left {
+  left: 75%;
+}
+
+.lens.right {
+  right: 75%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
   
-  .fire {
-    bottom: 0;
-    position: absolute;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
-    transform: rotate(-45deg) scale(5, 5);
-    bottom: -120px;
-    left: 50%;
-  }
-  
-  .yellow {
-    left: 15px;
-    width: 30px;
-    height: 30px;
-    background: #ffd700;
-    box-shadow: 0px 0px 8px 4px #ffd700;
-  }
-  
-  .orange {
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    background: #ffa500;
-    box-shadow: 0px 0px 8px 4px #ffa500;
-  }
-  
-  .red {
-    left: 5px;
-    width: 50px;
-    height: 50px;
-    background: #ff4500;
-    box-shadow: 0px 0px 8px 4px #ff4500;
-  }
-  
-  .bean {
-    width: 290px;
-    height: 400px;
-    background: #8b4513;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -230px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sunglasses {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70px;
-  }
-  
-  .arch {
-    width: 180px;
-    height: 5px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .lens {
-    width: 50px;
-    height: 40px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: -20px;
-  }
-  
-  .lens.left {
-    left: 75%;
-  }
-  
-  .lens.right {
-    right: 75%;
-  }
- 
-  .text {
-    position: absolute;
-    top: 120%;
-    left: 850%;
-    transform: translate(-50%, -50%);
-    z-index: 1; 
-  }
-  
-  .hot-beans {
-    font-family: "Source Code Pro", monospace;
-    font-size: 200px;
-    text-align: left;
-  }
-  
-  .hot-beans .hot {
+.hot-beans {
+  font-family: "Source Code Pro", monospace;
+  font-size: 200px;
+  text-align: left;
+  display: flex;
+  align-items: center; 
+}
+
+.hot {
     color: #ff4500;
-  }
-  
-  .hot-beans .beans {
+    margin-right: 10px; 
+}
+
+.beans {
     color: #ffd700;
-  }
-
-  @media only screen and (min-width: 700px) {
-
-  }
+    margin-left: 10px;
+}
