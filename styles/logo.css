@@ -14,13 +14,14 @@
 }
 
 .fire {
-  bottom: -30px; 
+  bottom: 100px;
   position: absolute;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
   transform: rotate(-45deg) scale(5, 5);
-  left: calc(50% - 25px); 
+  left: calc(80% - 25px);
+  margin-left: 115px;
   z-index: 2;
 }
 
@@ -54,7 +55,7 @@
   background: #8b4513;
   border-radius: 50%;
   position: absolute;
-  bottom: 0;
+  top: -400px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -98,28 +99,26 @@
 
 .text {
   position: absolute;
-  top: 50%;
+  bottom: 10px; 
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   z-index: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
   
 .hot-beans {
-  font-family: "Source Code Pro", monospace;
+  font-family: "rubik";
   font-size: 200px;
-  text-align: left;
   display: flex;
-  align-items: center; 
 }
 
 .hot {
-    color: #ff4500;
-    margin-right: 10px; 
+  color: #ff4500;
+  margin-bottom: 10px;
 }
 
 .beans {
-    color: #ffd700;
-    margin-left: 10px;
+  color: #ffd700;
 }
