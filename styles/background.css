@@ -1,10 +1,10 @@
 .animated-background-container {
-    background: linear-gradient(300deg, #00f0f5, #bf51ff, #d52c89, #00f0f5);
+    background: linear-gradient(300deg,#171b21, #00f0f5,#171b21, #bf51ff,#171b21, #d52c89,#171b21, #00f0f5);
     background-size: 1000% 1000%;
-    animation: FlowingBackground 100s ease infinite;
-    -webkit-animation: FlowingBackground 100s ease infinite;
-    -moz-animation: FlowingBackground 100s ease infinite;
-    -o-animation: FlowingBackground 100s ease infinite;
+    animation: FlowingBackground 150s ease infinite;
+    -webkit-animation: FlowingBackground 150s ease infinite;
+    -moz-animation: FlowingBackground 150s ease infinite;
+    -o-animation: FlowingBackground 150s ease infinite;
     position: fixed;
     top: 0;
     left: 0;
