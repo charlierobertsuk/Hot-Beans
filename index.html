@@ -100,7 +100,53 @@
             
             <div id="Apply">
                 <h2>Apply</h2>
-                <p>Form</p>
+                <form action="#" method="post">
+                    <label for="position">Position:</label>
+                    <select id="position" name="position">
+                        <option value="">Select Job Position</option>
+                        <option value="senior">Senior Web Developer</option>
+                        <option value="junior">Junior Web Developer</option>
+                        <option value="trainee">Trainee</option>
+                    </select>
+            
+                    <div class="stack">
+                        <div>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="stack">
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="mobile">Mobile Number:</label>
+                            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+                        </div>
+                    </div>
+                    
+                    <div class="stack">
+                        <div>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday" required>
+                        </div>
+                        <div>
+                            <label for="postcode">Postcode:</label>
+                            <input type="text" id="postcode" name="postcode" required>
+                        </div>
+                    </div>
+                    
+                    <label for="cv">Upload CV:</label>
+                    <input type="file" id="cv" name="cv" accept=".docx,.doc,.pdf" required>
+            
+                    <button type="submit">Apply</button>
+                </form>
             </div>
             
             <div id="Contact">
