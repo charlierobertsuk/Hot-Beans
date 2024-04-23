@@ -57,3 +57,22 @@ body {
 ::-webkit-scrollbar{
     display: none; /* chrome */
 }
+
+.footer{
+    margin-top: 1.5vh;
+    float: right;
+    margin-right: 10px;
+    background-color: #353f4c;
+    border-radius: 10px;
+}
+
+.footer a{
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a:hover{
+    color: grey;
+}
