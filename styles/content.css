@@ -49,6 +49,7 @@ body {
     overflow: auto;
     scrollbar-width: none; /* firefox */
     -ms-overflow-style: none; /* internet explorer and edge */
+    scroll-behavior: smooth;
 }
 
 .content {
