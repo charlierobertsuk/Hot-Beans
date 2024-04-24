@@ -66,15 +66,15 @@ body {
 }
 
 .footer{
-    margin-top: 1.5vh;
+    margin-top: 3vh;
     float: right;
-    margin-right: 10px;
+    margin-right: 5vh;
     background-color: #353f4c;
     border-radius: 10px;
 }
 
 .footer a{
-    font-size: 22px;
+    font-size: 40px;
     margin: 10px;
     text-decoration: none;
     cursor: pointer;
