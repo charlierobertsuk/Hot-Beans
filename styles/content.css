@@ -84,6 +84,10 @@ body {
     color: grey;
 }
 
+.team-member{
+    text-align: center;
+}
+
 .job-opportunity button{
     background-color: green;
     color: white;
@@ -102,6 +106,11 @@ form {
 .stack input {
     width: 100%;
 }
+
+.birthday input {
+    width: 155%;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
@@ -121,8 +130,12 @@ form button{
     font-size: 40px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
     .stack{
         display: contents;
+    }
+
+    .birthday input{
+        width: 100%;
     }
   }
