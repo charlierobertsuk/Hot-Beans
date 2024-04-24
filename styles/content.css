@@ -6,6 +6,10 @@ body {
     font-family: source code pro;
 }
 
+p {
+    font-size: 25px;
+}
+
 
 .header-box {
     width: 80%;
