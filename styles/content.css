@@ -86,7 +86,7 @@ p {
 }
 
 .footer a:hover{
-    color: grey;
+    opacity: 0.7;
 }
 
 .team-member{
